@@ -1,17 +1,17 @@
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Home from "./components/pages/Home";
-import Login from "./components/Auth/Login";
-import MentorshipProgramDetail from "./components/MentorshipPrograms/MentorshipProgramDetail";
-import MentorshipProgramList from "./components/MentorshipPrograms/MentorshipProgramList";
-import Navbar from "./components/Common/Navbar";
-import Profile from "./components/Profile/Profile";
+import About from "./About";
+import Contact from "./Contact";
+import Home from "./Home";
+import Login from "./Login";
+import MentorshipProgramDetail from "./MentorshipProgramDetail";
+import MentorshipProgramList from "./MentorshipProgramList";
+import Navbar from "./Navbar";
+import Profile from "./Profile";
 import React from "react";
-import ScholarshipDetail from "./components/Scholarships/ScholarshipDetail";
-import ScholarshipList from "./components/Scholarships/ScholarshipList";
-import SignUp from "./components/Auth/SignUp";
-import WorkshopDetail from "./components/Workshops/WorkshopDetail";
-import WorkshopList from "./components/Workshops/WorkshopList";
+import ScholarshipDetail from "./ScholarshipDetail";
+import ScholarshipList from "./ScholarshipList";
+import SignUp from "./SignUp";
+import WorkshopDetail from "./WorkshopDetail";
+import WorkshopList from "./WorkshopList";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
